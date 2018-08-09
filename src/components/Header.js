@@ -1,0 +1,13 @@
+import React from 'react';
+
+class Header extends React.Component{
+    render(){
+        return(
+            <div className="header">
+                <img src='https://cdn.dribbble.com/assets/logo-small-2x-9fe74d2ad7b25fba0f50168523c15fda4c35534f9ea0b1011179275383035439.png' alt='Dribbble logo' />
+            </div>
+        );
+    }
+}
+
+export default Header;
